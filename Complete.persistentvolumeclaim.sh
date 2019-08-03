@@ -1,0 +1,92 @@
+KIND:     PersistentVolumeClaim
+VERSION:  v1
+
+DESCRIPTION:
+     PersistentVolumeClaim is a user's request for and claim to a persistent
+     volume
+
+FIELDS:
+   apiVersion	<string>
+   kind	<string>
+   metadata	<Object>
+      annotations	<map[string]string>
+      clusterName	<string>
+      creationTimestamp	<string>
+      deletionGracePeriodSeconds	<integer>
+      deletionTimestamp	<string>
+      finalizers	<[]string>
+      generateName	<string>
+      generation	<integer>
+      initializers	<Object>
+         pending	<[]Object>
+            name	<string>
+         result	<Object>
+            apiVersion	<string>
+            code	<integer>
+            details	<Object>
+               causes	<[]Object>
+                  field	<string>
+                  message	<string>
+                  reason	<string>
+               group	<string>
+               kind	<string>
+               name	<string>
+               retryAfterSeconds	<integer>
+               uid	<string>
+            kind	<string>
+            message	<string>
+            metadata	<Object>
+               continue	<string>
+               remainingItemCount	<integer>
+               resourceVersion	<string>
+               selfLink	<string>
+            reason	<string>
+            status	<string>
+      labels	<map[string]string>
+      managedFields	<[]Object>
+         apiVersion	<string>
+         fields	<map[string]>
+         manager	<string>
+         operation	<string>
+         time	<string>
+      name	<string>
+      namespace	<string>
+      ownerReferences	<[]Object>
+         apiVersion	<string>
+         blockOwnerDeletion	<boolean>
+         controller	<boolean>
+         kind	<string>
+         name	<string>
+         uid	<string>
+      resourceVersion	<string>
+      selfLink	<string>
+      uid	<string>
+   spec	<Object>
+      accessModes	<[]string>
+      dataSource	<Object>
+         apiGroup	<string>
+         kind	<string>
+         name	<string>
+      resources	<Object>
+         limits	<map[string]string>
+         requests	<map[string]string>
+      selector	<Object>
+         matchExpressions	<[]Object>
+            key	<string>
+            operator	<string>
+            values	<[]string>
+         matchLabels	<map[string]string>
+      storageClassName	<string>
+      volumeMode	<string>
+      volumeName	<string>
+   status	<Object>
+      accessModes	<[]string>
+      capacity	<map[string]string>
+      conditions	<[]Object>
+         lastProbeTime	<string>
+         lastTransitionTime	<string>
+         message	<string>
+         reason	<string>
+         status	<string>
+         type	<string>
+      phase	<string>
