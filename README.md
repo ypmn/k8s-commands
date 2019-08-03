@@ -1,4 +1,4 @@
-# POWER COMMANDS
+# POWERFULL COMMANDS
 
 # kubernetes commands
 
