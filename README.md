@@ -1,3 +1,3 @@
 # k8s-commands
 
-kubectl explain deployment --recursive
+# kubectl explain deployment --recursive
